@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "git fly rules"
-description: ""
+description: "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
 category: 
 tags: [git, cheat sheet, правила git ]
 ---
@@ -24,16 +24,16 @@ For clarity's sake all examples in this document use customized bash prompt in o
 ```
 
 <a name="force-push"></a>
-### IНе проходит коммит в удаленый репозиторий  выдавая сообщение об ошобке
+### Не проходит коммит в удаленый репозиторий  выдавая сообщение об ошобке
 
 Возможно  **переписать старый коммит новым**, используем force push (`-f`) это перезапишет предыдущие изменения в репозитории. необходимо проверить в каком бранче вы находишся!!
 
 <a name="interactive-rebase"></a>
-## Лбъеденить коммиты
+## Объеденить коммиты
 
 Для этого необходим  interactive rebase.
 
-If you are working in a branch that is/will become a pull-request against `master`, you can rebase against your `master` branch. Make sure it is up to date:
+Сделайте пpull reuest текщего бранча  `master`, you can rebase against your `master` branch. Make sure it is up to date:
 
 ```
 (my-branch)$ git rebase -i master
