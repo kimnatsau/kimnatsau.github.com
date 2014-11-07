@@ -1688,7 +1688,7 @@ tags: []
 * <a name="one-class-per-file"></a> Aim to have just a single class/module per source file. Name the file name as  the class/module, but replacing CamelCase with snake_case.
 <sup>[[ссылка](#one-class-per-file)]</sup>
 
-* <a name="screaming-snake-case"></a> Use `SCREAMING_SNAKE_CASE` for other constants.<sup>[[ссылка](#screaming-snake-case)]</sup>
+* <a name="screaming-snake-case"></a> Используйте `SCREAMING_SNAKE_CASE` для констант.<sup>[[ссылка](#screaming-snake-case)]</sup>
 
   ```Ruby
   # плохо
